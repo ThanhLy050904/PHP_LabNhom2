@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $db_host = "onehost-webhn072403.000nethost.com";
-    private $db_name = "pltiozushosting_khanghuynh";
-    private $db_user = "pltiozushosting_khanghuynh";
-    private $db_pass = "Khanghuynh21@";
+    private $db_host = "103.57.220.210";
+    private $db_name = "tgivmjcjhosting_shop_thoitrang";
+    private $db_user = "tgivmjcjhosting_test";
+    private $db_pass = "?vUvL-Gj57PZ9:$";
 
     public function connect() {
         $dsn = "mysql:host=$this->db_host;dbname=$this->db_name;charset=utf8";
